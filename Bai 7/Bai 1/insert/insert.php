@@ -21,7 +21,7 @@
 <body >
 <h2 >Nguyễn Trương Duy - 20135248</h2>
 <table>
-    <form name="frmPHP" method="post" action="khoa_doinsert.php" onsubmit="return checkInput();">
+    <form name="frmPHP" method="post" action="sanpham_doinsert.php" onsubmit="return checkInput();">
         <tr>
             <td align="left" class="content-sm"><b>Please enter ID and Name</b></td>
         </tr>
@@ -30,16 +30,24 @@
         </tr>
         <tr>
             <td align="left">
-                <input type="text" name="txtID" size="25" maxlength="3" class="textbox">
+                <input type="text" name="id_sp" size="25" maxlength="6" class="textbox">
             </td>
         </tr>
         <tr>
         <tr>
-            <td align="left" >Name:</td>
+            <td align="left" >Tên sản phẩm:</td>
         </tr>
         <tr>
             <td align="left" >
-                <input type="text" name="txtName" size="25" maxlength="50" class="textbox">
+                <input type="text" name="tensanpham" size="25" maxlength="50" class="textbox">
+            </td>
+        </tr>
+        <tr>
+            <td align="left" >Đơn giá:</td>
+        </tr>
+        <tr>
+            <td align="left" >
+                <input type="text" name="dongia" size="25" maxlength="50" class="textbox">
             </td>
         </tr>
         <td align="left" valign="top"> <br>
