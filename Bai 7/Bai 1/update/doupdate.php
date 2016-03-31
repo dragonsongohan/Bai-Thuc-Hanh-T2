@@ -9,16 +9,16 @@
 <?php 
     $id_sp = $_POST['id_sp'];
     $tensanpham = $_POST['tensanpham'];
-    $dongia = $_POST['dongia'];
     $affectrow = 0;
     $user = "root";
     $url = "localhost";
     $pass = "";
-    $database_name = "qlbanhang";
+    $database_name = "qlsinhvien";
+    echo $id_sp . $tensanpham;
     $link = mysql_connect($url, $user, $pass) or die ("Không kết nối được MySQL Database");
     mysql_select_db($database_name, $link);
-    $sql="insert into sanpham(id_sp, tensanpham, dongia) ";
-    $sql .=" values('".$id_sp."','".$tensanpham."','".$dongia."')";
+    $sql="update sanpham set tensanpham='";
+    $sql .=$tensanpham."' where id_sp='".$id_sp."'";
     $result = mysql_query($sql, $link);
     if ($result) {
         $affectrow = mysql_affected_rows();
