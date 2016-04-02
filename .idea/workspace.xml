@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3a9df9-d4aa-47f2-b35d-fac831248fc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai5/2/khoa_doinsert.php" afterPath="$PROJECT_DIR$/Bai 7/Bai 1/insert/sanpham_doinsert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/delete/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/delete/sanpham_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/insert/insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/insert/sanpham_doinsert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/sanpham_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/update/doupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/update/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/SanPham/delete/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/SanPham/delete/sanpham_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/SanPham/insert/insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/SanPham/insert/sanpham_doinsert.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bai 7/Bai 1/insert/sanpham_doinsert.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai 7/Bai 1/sanpham_select.php" afterPath="$PROJECT_DIR$/Bai 7/SanPham/sanpham_select.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai 7/Bai 1/update/doupdate.php" afterPath="$PROJECT_DIR$/Bai 7/SanPham/update/doupdate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai 7/Bai 1/update/update.php" afterPath="$PROJECT_DIR$/Bai 7/SanPham/update/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php" afterPath="$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bai5/2/insert.php" afterPath="$PROJECT_DIR$/Bai5/2/insert.php" />
     </list>
     <ignored path="Thuc Hanh T2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,36 +40,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sanpham_select.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/sanpham_select.php">
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/delete/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <marker date="1459385904171" expanded="true" signature="474:495" placeholder="select * fro... sanpham" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="272">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sanpham_doinsert.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/insert/sanpham_doinsert.php">
+      <file leaf-file-name="sanpham_delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/delete/sanpham_delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="340">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
-                <marker date="1459390866095" expanded="true" signature="718:764" placeholder="insert into sanpham... " />
+                <marker date="1459578282856" expanded="true" signature="661:694" placeholder="delete from " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bai 7/KhachHang/delete/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,10 +81,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Bai 7/Bai 1/sanpham_select.php" />
-        <option value="$PROJECT_DIR$/Bai5/2/insert.php" />
         <option value="$PROJECT_DIR$/Bai5/2/khoa_doinsert.php" />
+        <option value="$PROJECT_DIR$/Bai5/2/insert.php" />
         <option value="$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php" />
         <option value="$PROJECT_DIR$/Bai 7/Bai 1/insert/sanpham_doinsert.php" />
+        <option value="$PROJECT_DIR$/Bai 7/Bai 1/update/doupdate.php" />
+        <option value="$PROJECT_DIR$/Bai 7/Bai 1/delete/delete.php" />
+        <option value="$PROJECT_DIR$/Bai 7/Bai 1/delete/sanpham_delete.php" />
       </list>
     </option>
   </component>
@@ -118,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,7 +163,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bai 1" />
+              <option name="myItemId" value="SanPham" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,11 +181,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bai 1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insert" />
+              <option name="myItemId" value="KhachHang" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,49 +195,22 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bai5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
+              <option name="myItemId" value="Bai 7" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bai5" />
+              <option name="myItemId" value="KhachHang" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bai5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1" />
+              <option name="myItemId" value="update" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,10 +219,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Thuc Hanh T2\Bai-Thuc-Hanh-T2\Bai 7\KhachHang" />
       <recent name="C:\xampp\htdocs\Thuc Hanh T2\Bai-Thuc-Hanh-T2\Bai 7\Bai 1\insert" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.update.php">
+    <configuration default="false" name="update.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bai-Thuc-Hanh-T2/Bai 7/Bai 1/update/update.php">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -272,6 +257,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.update.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.update.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -288,11 +281,12 @@
       <updated>1459327405909</updated>
       <workItem from="1459327407270" duration="2989000" />
       <workItem from="1459386198469" duration="1932000" />
+      <workItem from="1459576060900" duration="2272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4921000" />
+    <option name="totallyTimeSpent" value="7193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -303,18 +297,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -333,17 +327,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/sanpham_select.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/sanpham_select.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <marker date="1459385904171" expanded="true" signature="474:495" placeholder="select * fro... sanpham" />
+            <marker date="1459475493462" expanded="true" signature="474:495" placeholder="select * fro... sanpham" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/insert/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/insert/sanpham_doinsert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459576739095" expanded="true" signature="641:685" placeholder="insert into sanpham... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/sanpham_select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1459475493462" expanded="true" signature="474:495" placeholder="select * fro... sanpham" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/insert/insert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -359,46 +381,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/sanpham_select.php">
+    <entry file="file://$PROJECT_DIR$/Bai5/2/sanpham_doinsert.php" />
+    <entry file="file://$PROJECT_DIR$/Bai5/2/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/sanpham_select.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <marker date="1459385904171" expanded="true" signature="474:495" placeholder="select * fro... sanpham" />
+            <marker date="1459475493462" expanded="true" signature="474:495" placeholder="select * fro... sanpham" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai5/2/insert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/insert/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="578">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/insert/insert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/insert/sanpham_doinsert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="391">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <marker date="1459576739095" expanded="true" signature="641:685" placeholder="insert into sanpham... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/update/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai 7/Bai 1/insert/sanpham_doinsert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/update/doupdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <marker date="1459577776898" expanded="true" signature="743:774" placeholder="update sanph... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai5/4/khoa_dodelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <marker date="1459475493733" expanded="true" signature="652:681" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/delete/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/SanPham/delete/sanpham_delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
-            <marker date="1459390866095" expanded="true" signature="718:764" placeholder="insert into sanpham... " />
+            <marker date="1459578282856" expanded="true" signature="661:694" placeholder="delete from " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai5/2/sanpham_doinsert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/KhachHang/delete/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
