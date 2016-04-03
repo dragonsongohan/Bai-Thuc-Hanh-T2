@@ -8,24 +8,23 @@
 <h2>Nguyễn Trương Duy - 20135248</h2>
 <h3>Thêm mẩu tin</h3>
 <?php
-    $id_sp = $_POST['id_sp'];
-    $tensanpham = $_POST['tensanpham'];
+    $id_kh = $_POST['id_kh'];
     $affectrow = 0;
     $user = "root";
     $url = "localhost";
     $pass = "";
-    $database_name = "qlsinhvien";
-    echo $id_sp . " + " . $tensanpham;
+    $database_name = "qlbanhang";
     $link = mysql_connect($url, $user, $pass) or die ("Không kết nối được MySQL Database");
     mysql_select_db($database_name, $link);
-    $sql = "update sanpham set tensanpham='";
-    $sql .= $tensanpham . "' where id_sp='" . $id_sp . "'";
+    $sql="delete from khachhang where id_kh='";
+    $sql .=$id_kh . "'";
     $result = mysql_query($sql, $link);
     if ($result) {
         $affectrow = mysql_affected_rows();
         mysql_close($link);
     }
+    ?>
+    Số mẫu tin thêm vào <?= $affectrow
 ?>
-Số mẫu tin thêm vào <?= $affectrow ?>
 </body>
 </html>

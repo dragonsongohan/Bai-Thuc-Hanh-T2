@@ -18,16 +18,16 @@
 <body>
 <h2>Nguyễn Trương Duy - 20135248</h2>
 <table>
-    <form name="frmPHP" method="post" action="sanpham_delete.php" onsubmit="return checkInput();">
+    <form name="frmPHP" method="post" action="khachhang_delete.php" onsubmit="return checkInput();">
         <tr>
             <td align="left" class="content-sm"><b>Please enter ID and Name</b></td>
         </tr>
         <tr>
-            <td align="left">Mã Sản Phẩm</td>
+            <td align="left">Mã Khách Hàng</td>
         </tr>
         <tr>
             <td align="left">
-                <input type="text" name="id_sp" size="25" maxlength="3" class="textbox">
+                <input type="text" name="id_kh" size="25" maxlength="3" class="textbox">
             </td>
         </tr>
         <td align="left" valign="top"><br>

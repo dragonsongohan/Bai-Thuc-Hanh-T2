@@ -6,12 +6,12 @@
     <title>Nguyễn Trương Duy - 20135248</title>
     <script language=JavaScript>
         function checkInput() {
-            if (document.frmPHP.txtID.value == "") {
+            if (document.frmPHP.id_kh.value == "") {
                 alert("Invalid ID, Please enter ID");
                 document.frmPHP.txtID.focus();
                 return false;
             }
-            if (document.frmPHP.txtName.value == "") {
+            if (document.frmPHP.tenkh.value == "") {
                 alert("Please enter Name");
                 document.frmPHP.txtName.focus();
                 return false;
@@ -22,16 +22,16 @@
 <body>
 <h2>Nguyễn Trương Duy - 20135248</h2>
 <table>
-    <form name="frmPHP" method="post" action="doupdate.php" onsubmit="return checkInput();">
+    <form name="frmPHP" method="post" action="khachhang_doupdate.php" onsubmit="return checkInput();">
         <tr>
             <td align="left" class="content-sm"><b>Please enter ID and Name</b></td>
         </tr>
         <tr>
-            <td align="left">Mã Sản Phẩm</td>
+            <td align="left">Mã Khách Hàng</td>
         </tr>
         <tr>
             <td align="left">
-                <input type="text" name="id_sp" size="25" maxlength="3" class="textbox">
+                <input type="text" name="id_kh" size="25" maxlength="25" class="textbox">
             </td>
         </tr>
         <tr>
@@ -40,7 +40,7 @@
         </tr>
         <tr>
             <td align="left">
-                <input type="text" name="tensanpham" size="25" maxlength="50" class="textbox">
+                <input type="text" name="tenkh" size="25" maxlength="50" class="textbox">
             </td>
         </tr>
         <td align="left" valign="top"><br>

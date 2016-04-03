@@ -22,7 +22,7 @@
 <body>
 <h2>Nguyễn Trương Duy - 20135248</h2>
 <table>
-    <form name="frmPHP" method="post" action="doupdate.php" onsubmit="return checkInput();">
+    <form name="frmPHP" method="post" action="sanpham_doupdate.php" onsubmit="return checkInput();">
         <tr>
             <td align="left" class="content-sm"><b>Please enter ID and Name</b></td>
         </tr>

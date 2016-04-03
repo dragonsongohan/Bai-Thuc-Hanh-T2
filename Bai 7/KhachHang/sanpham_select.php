@@ -8,7 +8,7 @@
     $link = mysql_connect("localhost", "root", "") or die ("Không kết nối được database");
     mysql_select_db("qlbanhang", $link);
     $totalRows = 0;
-    $strSQL = "select * from sanpham";
+    $strSQL = "select * from khachhang";
     $result = mysql_query($strSQL, $link);
     $totalRows = mysql_num_rows($result);
 ?>
@@ -16,9 +16,10 @@
     <h3 style="text-align: center">Tổng số mẫu tìm thấy: <?=$totalRows ?></h3>
 <table style="margin: auto;">
     <tr>
-        <th><b>Mã SP</b></th>
-        <th><b>Tên SP</b></th>
-        <th><b>Đơn giá</b></th>
+        <th><b>Mã Khách Hàng</b></th>
+        <th><b>Tên Khách Hàng</b></th>
+        <th><b>Điện thoại</b></th>
+        <th><b>Địa chỉ</b></th>
     </tr>
     <?php
     if($totalRows>0){
@@ -29,9 +30,10 @@
             $i+=1;
             ?>
             <tr valign="top">
-                <td><?=$row["id_sp"]?> </td>
-                <td ><?=$row["tensanpham"]?></td>
-                <td ><?=$row["dongia"]?></td>
+                <td><?=$row["id_kh"]?> </td>
+                <td ><?=$row["tenkh"]?></td>
+                <td ><?=$row["dienthoai"]?></td>
+                <td ><?=$row["diachi"]?></td>
             </tr>
             <?php
         }
