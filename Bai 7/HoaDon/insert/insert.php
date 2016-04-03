@@ -44,7 +44,7 @@
 ?>
 
 <table>
-    <form name="frmPHP" method="post" action="nhanvien_doinsert.php"
+    <form name="frmPHP" method="post" action="hoadon_doinsert.php"
           onsubmit="return checkInput();">
         <tr>
             <td align="left" class="content-sm"><b>
@@ -107,7 +107,7 @@
         <tr>
             <td align="left">
                 <input type="text" name="ngaygiaohang" size="12"
-                       maxlength="8" class="textbox">
+                       maxlength="50" class="textbox">
             </td>
         </tr>
         <tr>

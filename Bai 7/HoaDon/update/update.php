@@ -2,54 +2,140 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-
+8"/>
     <title>Nguyễn Trương Duy - 20135248</title>
     <script language=JavaScript>
         function checkInput() {
-            if (document.frmPHP.id_nv.value == "") {
+            if (document.frmPHP.txtid_kh.value == "") {
                 alert("Invalid ID, Please enter ID");
-                document.frmPHP.txtID.focus();
+                document.frmPHP.txtid_sp.focus();
                 return false;
             }
-            if (document.frmPHP.tennv.value == "") {
+            if (document.frmPHP.txttenkh.value == "") {
                 alert("Please enter Name");
-                document.frmPHP.txtName.focus();
+                document.frmPHP.txttenkh.focus();
+                return false;
+            }
+            if (document.frmPHP.txtdienthoai.value == "") {
+                alert("Please enter Name");
+                document.frmPHP.txtdongia.focus();
+                return false;
+            }
+            if (document.frmPHP.txtdiachi.value == "") {
+                alert("Please enter Name");
+                document.frmPHP.txtdongia.focus();
                 return false;
             }
             return true;
         }
     </script>
+</head>
 <body>
-<h2>Nguyễn Trương Duy - 20135248</h2>
+
+<?php
+$link = mysql_connect("localhost", "root", "") or die ("Không kết nối được database");
+mysql_select_db("qlbanhang", $link);
+$strSQLKH = "select * from khachhang";
+$resultKH = mysql_query($strSQLKH, $link);
+
+$strSQLNV = "select * from nhanvien";
+$resultNV = mysql_query($strSQLNV, $link);
+
+$strSQLHD = "select * from hoadon";
+$resultHD = mysql_query($strSQLHD, $link);
+?>
+
 <table>
-    <form name="frmPHP" method="post" action="khachhang_doupdate.php" onsubmit="return checkInput();">
+    <form name="frmPHP" method="post" action="hoadon_doupdate.php"
+          onsubmit="return checkInput();">
         <tr>
-            <td align="left" class="content-sm"><b>Please enter ID and Name</b></td>
+            <td align="left" class="content-sm"><b>
+                    Please enter ma sp, ten san phẩm, đơn giá
+                </b></td>
         </tr>
         <tr>
-            <td align="left">Mã Nhân Viên</td>
-        </tr>
-        <tr>
-            <td align="left">
-                <input type="text" name="id_nv" size="25" maxlength="25" class="textbox">
-            </td>
-        </tr>
-        <tr>
-        <tr>
-            <td align="left">Tên Nhân Viên</td>
+            <td align="left">Mã Hóa Đơn:</td>
         </tr>
         <tr>
             <td align="left">
-                <input type="text" name="tennv" size="25" maxlength="50" class="textbox">
+                <select name="id_hd">
+                    <?php
+                    while ($row = mysql_fetch_array($resultHD)) {
+                        ?>
+                        <option value="<?=$row['id_hd']?>"><?=$row['id_hd']?></option>
+                        <?php
+                    }
+                    ?>
+                </select>
             </td>
         </tr>
-        <td align="left" valign="top"><br>
-            <input type="submit" value="Submit" class="button">
-            <input type="reset" value="Reset" class="button">
-        </td>
+        <tr>
+            <td align="left">Ngày Lập Hóa Đơn:</td>
+        </tr>
+        <tr>
+            <td align="left">
+                <input type="text" name="ngaylaphoadon" size="50"
+                       maxlength="50" class="textbox">
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Khách Hàng:</td>
+        </tr>
+        <tr>
+            <td align="left">
+                <select name="id_kh">
+                    <?php
+                    while ($row = mysql_fetch_array($resultKH)) {
+                        ?>
+                        <option value="<?=$row['id_kh']?>"><?=$row['tenkh']?></option>
+                        <?php
+                    }
+                    ?>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Nhân Viên:</td>
+        </tr>
+        <tr>
+            <td align="left">
+                <select name="id_nv">
+                    <?php
+                    while ($row = mysql_fetch_array($resultNV)) {
+                        ?>
+                        <option value="<?=$row['id_nv']?>"><?=$row['tennv']?></option>
+                        <?php
+                    }
+                    ?>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Ngày giao hàng:</td>
+        </tr>
+        <tr>
+            <td align="left">
+                <input type="text" name="ngaygiaohang" size="12"
+                       maxlength="50" class="textbox">
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Tổng tiền:</td>
+        </tr>
+        <tr>
+            <td align="left">
+                <input type="text" name="tongtien" size="12"
+                       maxlength="8" class="textbox">
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><br>
+                <input type="submit" value="Submit" class="button">
+                <input type="reset" value="Reset" class="button">
+            </td>
         </tr>
     </form>
-</table>
 </table>
 </body>
 </html>

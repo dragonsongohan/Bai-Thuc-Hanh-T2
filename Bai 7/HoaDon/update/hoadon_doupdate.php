@@ -11,8 +11,12 @@
 <h2>Nguyễn Trương Duy - 20135248</h2>
 <h3>Thêm mẩu tin</h3>
 <?php
-    $id_nv = $_POST['id_nv'];
-    $tennv = $_POST['tennv'];
+    $txtid_hd = $_POST["id_hd"];
+    $ngaylaphoadon = $_POST["ngaylaphoadon"];
+    $id_kh = $_POST["id_kh"];
+    $id_nv = $_POST["id_nv"];
+    $ngaygiaohang = $_POST["ngaygiaohang"];
+    $tongtien = $_POST["tongtien"];
     $affectrow = 0;
     $user = "root";
     $url = "localhost";
@@ -20,8 +24,9 @@
     $database_name = "qlbanhang";
     $link = mysql_connect($url, $user, $pass) or die ("Không kết nối được MySQL Database");
     mysql_select_db($database_name, $link);
-    $sql = "update nhanvien set tennv='";
-    $sql .= $tennv . "' where id_nv='" . $id_nv . "'";
+    $sql = "update hoadon set ngaylaphd='";
+    $sql .= $ngaylaphoadon . "', id_kh='" . $id_kh . "', id_nv='" .
+        $id_nv . "', ngaygiaohang='" . $ngaygiaohang . "', tongtien='" . $tongtien ."' where id_hd='" . $txtid_hd . "'";
     $result = mysql_query($sql, $link);
     if ($result) {
         $affectrow = mysql_affected_rows();

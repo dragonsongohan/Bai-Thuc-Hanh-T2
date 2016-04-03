@@ -11,16 +11,18 @@
 <h3>Them mau tin</h3>
 <?php
     $txtid_hd = $_POST["txtid_hd"];
-    $ngaylaphoadon = $_POST["txttennv"];
-    $txtdienthoai = $_POST["txtdienthoai"];
-    $txtdiachi = $_POST["txtdiachi"];
+    $ngaylaphoadon = $_POST["ngaylaphoadon"];
+    $id_kh = $_POST["id_kh"];
+    $id_nv = $_POST["id_nv"];
+    $ngaygiaohang = $_POST["ngaygiaohang"];
+    $tongtien = $_POST["tongtien"];
     $affectrow = 0;
     $link = mysql_connect("localhost", "root", "")
     or die("Khong ket noi duoc MySQL Database");
     mysql_select_db("qlbanhang", $link);
-    $sql = "insert into nhanvien(id_nv,tennv,dienthoai, diachi) ";
+    $sql = "insert into hoadon(id_hd,ngaylaphd,id_kh, id_nv,ngaygiaohang,tongtien) ";
     $sql .= " values('" . $txtid_hd . "','" . $ngaylaphoadon . "',
-        '" . $txtdienthoai . "','" . $txtdiachi . "')";
+        '" . $id_kh . "','" . $id_nv . "','" . $ngaygiaohang . "','" . $tongtien . "')";
     $result = mysql_query($sql, $link);
     if ($result)
         $affectrow = mysql_affected_rows();

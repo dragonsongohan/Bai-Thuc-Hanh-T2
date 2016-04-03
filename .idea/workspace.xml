@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3a9df9-d4aa-47f2-b35d-fac831248fc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/delete/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/delete/hoadon_delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/hoadon_select.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/insert/nhanvien_doinsert.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/update/khachhang_doupdate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/update/update.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai 7/KhachHang/sanpham_select.php" afterPath="$PROJECT_DIR$/Bai 7/KhachHang/khachhang_select.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai 7/HoaDon/insert/nhanvien_doinsert.php" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/insert/hoadon_doinsert.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bai 7/HoaDon/update/khachhang_doupdate.php" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/update/hoadon_doupdate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bai 7/HoaDon/update/update.php" afterPath="$PROJECT_DIR$/Bai 7/HoaDon/update/update.php" />
     </list>
     <ignored path="Thuc Hanh T2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,26 +28,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/update/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="67" column="54" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="54" />
+            <state relative-caret-position="11">
+              <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
               <folding>
-                <marker date="1459644176278" expanded="true" signature="1377:1400" placeholder="select * fro... khachhang" />
-                <marker date="1459644176278" expanded="true" signature="1468:1490" placeholder="select * fro... nhanvien" />
+                <marker date="1459645153747" expanded="true" signature="1365:1388" placeholder="select * fro... khachhang" />
+                <marker date="1459645153747" expanded="true" signature="1448:1470" placeholder="select * fro... nhanvien" />
+                <marker date="1459645153747" expanded="true" signature="1530:1550" placeholder="select * fro... hoadon" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nhanvien_doinsert.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/insert/nhanvien_doinsert.php">
+      <file leaf-file-name="hoadon_doupdate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/update/hoadon_doupdate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="493">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding>
-                <marker date="1459644259725" expanded="true" signature="712:763" placeholder="insert into nhanvien... " />
+                <marker date="1459645534835" expanded="true" signature="855:884" placeholder="update hoado... " />
               </folding>
             </state>
           </provider>
@@ -92,6 +89,8 @@
         <option value="$PROJECT_DIR$/Bai 7/HoaDon/delete/hoadon_delete.php" />
         <option value="$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php" />
         <option value="$PROJECT_DIR$/Bai 7/HoaDon/insert/nhanvien_doinsert.php" />
+        <option value="$PROJECT_DIR$/Bai 7/HoaDon/update/update.php" />
+        <option value="$PROJECT_DIR$/Bai 7/HoaDon/update/hoadon_doupdate.php" />
       </list>
     </option>
   </component>
@@ -243,7 +242,51 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="update" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bai 7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HoaDon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="insert" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bai-Thuc-Hanh-T2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bai 7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HoaDon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delete" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,7 +297,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo mvc" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -325,12 +368,12 @@
       <workItem from="1459386198469" duration="1932000" />
       <workItem from="1459576060900" duration="4254000" />
       <workItem from="1459614561788" duration="321000" />
-      <workItem from="1459641320392" duration="2938000" />
+      <workItem from="1459641320392" duration="4214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12434000" />
+    <option name="totallyTimeSpent" value="13710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -690,23 +733,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/insert/hoadon_doinsert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="67" column="54" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="54" />
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="35" />
           <folding>
-            <marker date="1459644176278" expanded="true" signature="1377:1400" placeholder="select * fro... khachhang" />
-            <marker date="1459644176278" expanded="true" signature="1468:1490" placeholder="select * fro... nhanvien" />
+            <marker date="1459644645380" expanded="true" signature="775:845" placeholder="insert into hoadon... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/insert/nhanvien_doinsert.php">
+    <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/insert/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="207">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding>
-            <marker date="1459644259725" expanded="true" signature="712:763" placeholder="insert into nhanvien... " />
+            <marker date="1459645086503" expanded="true" signature="1377:1400" placeholder="select * fro... khachhang" />
+            <marker date="1459645086503" expanded="true" signature="1468:1490" placeholder="select * fro... nhanvien" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/update/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+          <folding>
+            <marker date="1459645153747" expanded="true" signature="1365:1388" placeholder="select * fro... khachhang" />
+            <marker date="1459645153747" expanded="true" signature="1448:1470" placeholder="select * fro... nhanvien" />
+            <marker date="1459645153747" expanded="true" signature="1530:1550" placeholder="select * fro... hoadon" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bai 7/HoaDon/update/hoadon_doupdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <marker date="1459645534835" expanded="true" signature="855:884" placeholder="update hoado... " />
           </folding>
         </state>
       </provider>
